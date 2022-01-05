@@ -1,0 +1,1065 @@
+ERROR - 2021-12-09 09:56:57 --> Table 'perpustakaan.users' doesn't exist
+CRITICAL - 2021-12-09 09:56:57 --> Table 'perpustakaan.users' doesn't exist
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\perpustakaan\app\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Login->process()
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-09 09:58:46 --> Table 'perpustakaan.users' doesn't exist
+CRITICAL - 2021-12-09 09:58:46 --> Table 'perpustakaan.users' doesn't exist
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\perpustakaan\app\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Login->process()
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-09 09:58:50 --> Table 'perpustakaan.users' doesn't exist
+CRITICAL - 2021-12-09 09:58:50 --> Table 'perpustakaan.users' doesn't exist
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\perpustakaan\app\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Login->process()
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-09 10:05:53 --> Table 'perpustakaan.users' doesn't exist
+CRITICAL - 2021-12-09 10:05:53 --> Table 'perpustakaan.users' doesn't exist
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\perpustakaan\app\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Login->process()
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-12-09 10:09:14 --> Undefined variable $users
+#0 C:\xampp\htdocs\perpustakaan\app\Controllers\Login.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Login->process()
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-12-09 10:09:53 --> Table 'perpustakaan.users' doesn't exist
+CRITICAL - 2021-12-09 10:09:53 --> Table 'perpustakaan.users' doesn't exist
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\perpustakaan\app\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Login->process()
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-09 10:11:22 --> Table 'perpustakaan.users' doesn't exist
+CRITICAL - 2021-12-09 10:11:22 --> Table 'perpustakaan.users' doesn't exist
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\perpustakaan\app\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Login->process()
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-09 10:16:02 --> Table 'perpustakaan.users' doesn't exist
+CRITICAL - 2021-12-09 10:16:02 --> Table 'perpustakaan.users' doesn't exist
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\perpustakaan\app\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Login->process()
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-12-09 10:16:43 --> Table 'perpustakaan.users' doesn't exist
+CRITICAL - 2021-12-09 10:16:43 --> Table 'perpustakaan.users' doesn't exist
+#0 C:\xampp\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\perpustakaan\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\perpustakaan\app\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Login->process()
+#8 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-12-09 19:46:04 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:48:36 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:48:37 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:48:37 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:48:38 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:48:38 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:48:38 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:48:38 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:48:38 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:49:04 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:49:05 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:49:05 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:49:05 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:49:05 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:50:27 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:53:08 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:53:09 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:53:09 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:53:09 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:53:09 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:55:08 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:55:19 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:55:21 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:56:54 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:56:55 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:56:55 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:56:55 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:56:55 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:56:56 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:56:56 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:56:56 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 19:56:58 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:03:24 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:16 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:18 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:18 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:18 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:18 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:19 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:19 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:20 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:20 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:20 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:22 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:04:32 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:07:30 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\perpustakaan\app\Config\Routes.php on line 37
+#0 C:\xampp\htdocs\perpustakaan\app\Config\Routes.php(37): CodeIgniter\Router\RouteCollection->get('home', Array, 'UserController:...', Array)
+#1 C:\xampp\htdocs\perpustakaan\system\Router\RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\perpustakaan\app\Config\Routes.php(39): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(705): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-09 20:07:35 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\perpustakaan\app\Config\Routes.php on line 37
+#0 C:\xampp\htdocs\perpustakaan\app\Config\Routes.php(37): CodeIgniter\Router\RouteCollection->get('home', Array, 'UserController:...', Array)
+#1 C:\xampp\htdocs\perpustakaan\system\Router\RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\perpustakaan\app\Config\Routes.php(39): CodeIgniter\Router\RouteCollection->group('user', Object(Closure))
+#3 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(705): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-09 20:08:33 --> Auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(375): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-09 20:08:34 --> Auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(375): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-09 20:08:34 --> Auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(375): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-09 20:08:36 --> Auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(375): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-09 20:08:38 --> Auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(375): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-09 20:08:39 --> Auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(375): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-09 20:08:40 --> Auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(375): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-09 20:10:00 --> Auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(375): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-09 20:19:01 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:19:02 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:19:53 --> Class "App\Filters\DebugToolbar" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('user/home', 'after')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:19:53 --> Class "App\Filters\DebugToolbar" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('user/home', 'after')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:19:54 --> Class "App\Filters\DebugToolbar" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('user/home', 'after')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:19:55 --> Class "App\Filters\DebugToolbar" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('user/home', 'after')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:19:55 --> Class "App\Filters\DebugToolbar" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('user/home', 'after')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:19:55 --> Class "App\Filters\DebugToolbar" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('user/home', 'after')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:19:55 --> Class "App\Filters\DebugToolbar" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('user/home', 'after')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:05 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:06 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:06 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:07 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:07 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:07 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:08 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:08 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:08 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:08 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:41 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:42 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:42 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:42 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:43 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:43 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:43 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:43 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:43 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:44 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:44 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:44 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:44 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:45 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:45 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:45 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:46 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:46 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:47 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:26:47 --> Class "app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:03 --> Class "Config\perpustakaan\app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:04 --> Class "Config\perpustakaan\app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:04 --> Class "Config\perpustakaan\app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:05 --> Class "Config\perpustakaan\app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:05 --> Class "Config\perpustakaan\app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:05 --> Class "Config\perpustakaan\app\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:17 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:18 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:18 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:18 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:19 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:19 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:19 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:57 --> Class "Config\perpustakaan\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:58 --> Class "Config\perpustakaan\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:58 --> Class "Config\perpustakaan\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:27:58 --> Class "Config\perpustakaan\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/home', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:29:51 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/profile', 'before')
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-09 20:32:09 --> Call to a member function isLoggedIn() on null
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/profile', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-09 20:32:10 --> Call to a member function isLoggedIn() on null
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/profile', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-09 20:32:10 --> Call to a member function isLoggedIn() on null
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/profile', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-09 20:32:11 --> Call to a member function isLoggedIn() on null
+#0 C:\xampp\htdocs\perpustakaan\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user/profile', 'before')
+#2 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-12-09 21:21:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`nama` VARCHAR(255) NOT NULL,
+	`jurusan` VARCHAR(255) NOT...' at line 2
+ERROR - 2021-12-09 21:23:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`nama` VARCHAR(255) NOT NULL,
+	`jurusan` VARCHAR(255) NOT...' at line 2
+ERROR - 2021-12-09 21:26:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`nama` VARCHAR(255) NOT NULL,
+	`jurusan` VARCHAR(255) NOT...' at line 2
+ERROR - 2021-12-09 21:28:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`nama` VARCHAR(255) NOT NULL,
+	`jurusan` VARCHAR(255) NOT...' at line 2
+CRITICAL - 2021-12-09 22:00:06 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:01:59 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:01 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:01 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:01 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:01 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:01 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:02 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:02 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:02 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:02 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:03 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:03 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-09 22:02:03 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\perpustakaan\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\perpustakaan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\perpustakaan\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/mahas...', Array, true)
+#3 C:\xampp\htdocs\perpustakaan\app\Controllers\Mahasiswa.php(16): view('dashboard/mahas...', Array)
+#4 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(824): App\Controllers\Mahasiswa->index()
+#5 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 C:\xampp\htdocs\perpustakaan\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
